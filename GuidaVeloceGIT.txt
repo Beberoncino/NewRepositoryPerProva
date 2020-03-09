@@ -1,0 +1,33 @@
+Creare una repository(locale):
+1.	Vai sulla cartella(click destro)git bash
+2.	git init
+3.	git add <nomeFile.estensione>
+4.	git commit -m "Messaggio del commit"
+
+	Comandi utili: git status
+
+
+Creare una repository(gitHUB):
+1.	Click su Repository
+2.	Click bottone verde "New"
+3.	Compila le info
+4.	Inserisci la repository da locale (segui istruzioni)
+
+
+Creare un brench:
+1.	git checkout -b <nomeBranch>
+	Comandi utili git branch
+
+
+Per pushare:
+1.	git remote add origin https://github.com/Beberoncino/NewRepositoryPerProva.git
+2.	git push -u origin <url> <branch//master>
+2bis.	git push origin <nomebranch> //richiesta di pull da soffisfare
+
+
+Per creare una copia(usare solo la prima volta se non si è il creatore della repository):
+1.	git clone <url repository>
+
+
+Per fare update:
+1.	git pull <url repository>
